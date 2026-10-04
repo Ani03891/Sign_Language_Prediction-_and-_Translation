@@ -67,7 +67,7 @@ st.info(
 # LOAD CNN MODEL
 # ============================================================
 
-model_path = r"C:\Users\Admin\OneDrive\Desktop\AIMLFinalProject\efficientnetb0_finetuned.keras"
+model_path = os.path.join(os.path.dirname(__file__), "efficientnetb0_finetuned.keras")
 
 
 @st.cache_resource
